@@ -21,9 +21,10 @@ screenValue.innerHTML = "0";
   });
 
 dotBtn.addEventListener("click", function () {
-  if (!screenValue.innerHTML.includes(".")) {
+   screenValue.innerHTML += this.innerHTML;
+  /*if (!screenValue.innerHTML.includes(".")) {
     screenValue.innerHTML += this.innerHTML;
-  }
+  }*/
 });
 
 clearBtn.addEventListener("click", function () {
