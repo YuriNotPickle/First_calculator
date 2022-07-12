@@ -1,0 +1,35 @@
+main {
+   display: grid; 
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+   gap: 15px ; 
+   width: 100%;
+   max-width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   grid-template-areas: 
+    "value value value btn-equals"
+    "btn-1 btn-2 btn-3 btn-plus"
+    "btn-4 btn-5 btn-6 btn-menus"
+    "btn-7 btn-8 btn-9 btn-divide"
+    "btn-dot btn-0 btn-clear btn-mult";
+
+    #btn-1 { grid-area: btn-1; }
+    #btn-2 { grid-area: btn-2; }
+    #btn-3 { grid-area: btn-3; }
+    #btn-4 { grid-area: btn-4; }
+    #btn-5 { grid-area: btn-5; }
+    #btn-6 { grid-area: btn-6; }
+    #btn-7 { grid-area: btn-7; }
+    #btn-8 { grid-area: btn-8; }
+    #btn-9 { grid-area: btn-9; }
+    #btn-0 { grid-area: btn-0; }
+    #btn-plus { grid-area: btn-plus; }
+    #btn-menus { grid-area: btn-menus; }
+    #btn-divide { grid-area: btn-divide; }
+    #btn-mult { grid-area: btn-mult; }
+    #value { grid-area: value; }
+    #btn-equals { grid-area: btn-equals; }
+    #btn-dot { grid-area: btn-dot; }
+    #btn-clear { grid-area: btn-clear; }
+}
